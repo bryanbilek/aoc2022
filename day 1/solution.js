@@ -2,7 +2,7 @@
 fs = require("fs")
 
 // Intitializing the readFileLines with filename
-fs.readFile('input.txt', function(err, data) {
+fs.readFile('day 1/input.txt', function(err, data) {
     if(err) throw err;
 
     let array = data.toString().split('\n');
